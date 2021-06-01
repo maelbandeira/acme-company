@@ -26,7 +26,11 @@ zuul:
   routes:
     ms-empregado:
       service-id: ms-empregado
-      path: /ms-empregado/**
+      path: /ms-empregado/**      
+      
+    ms-pagamento:
+      service-id: ms-pagamento
+      path: /ms-pagamento/**
       
       
       
